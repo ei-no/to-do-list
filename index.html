@@ -1,11 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tehtävälista</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="todo-list">
+      <h1>Tehtävälista</h1>
+      <input type="text" id="uusiTehtävä" placeholder="Lisää tehtävä">
+      <button onclick="lisääTehtävä()">Lisää</button>
+      <ul id="tehtäväLista"></ul>
+    </div>
+    <script src="script.js"></script>
+  </body>
 </html>
